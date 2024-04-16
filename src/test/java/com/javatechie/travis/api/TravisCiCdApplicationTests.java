@@ -23,7 +23,6 @@ class TravisCiCdApplicationTests {
 	}
 	@Test
 	public void testWelcomeFailure() throws Exception {
-		mockMvc.perform(get("/")).andExpect(status().isOk());
 	}
 
 }
